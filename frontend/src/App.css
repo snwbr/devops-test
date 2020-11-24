@@ -1,0 +1,24 @@
+.bg-dark {
+  background-color: #64d6ac!important;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
