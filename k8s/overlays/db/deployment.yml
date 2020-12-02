@@ -48,10 +48,10 @@ spec:
               name: clevertech-vars
         volumeMounts:
         - name: "files"
-          mountPath: "/tmp/"
+          mountPath: "/tmp/courses.csv"
           subPath: "courses.csv"
         - name: "files"
-          mountPath: "/docker-entrypoint-initdb.d"
+          mountPath: "/docker-entrypoint-initdb.d/initdb.sql"
           subPath: "initdb.sql"
       restartPolicy: Always
       volumes:
