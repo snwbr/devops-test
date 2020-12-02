@@ -17,21 +17,22 @@ on:
     branches:
     - main
 
-env:
-  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: clevertech-gke
-  GKE_ZONE: us-east1-d
-  FE_DEPLOYMENT_NAME: ct-frontend
-  BE_DEPLOYMENT_NAME: ct-backend
-  FE_IMAGE: ct-frontend
-  BE_IMAGE: ct-backend
-
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish, and Deploy
     runs-on: ubuntu-latest
 
     steps:
+    - name: Set the env values
+      run: |
+          echo "PROJECT_ID=${{ secrets.GKE_PROJECT }}" >> $GITHUB_ENV
+          echo 'GKE_CLUSTER=clevertech-gke' >> $GITHUB_ENV
+          echo 'GKE_ZONE=us-east1-d' >> $GITHUB_ENV
+          echo 'FE_DEPLOYMENT_NAME=ct-frontend' >> $GITHUB_ENV
+          echo 'BE_DEPLOYMENT_NAME=ct-backend' >> $GITHUB_ENV
+          echo 'FE_IMAGE=ct-frontend' >> $GITHUB_ENV
+          echo 'BE_IMAGE=ct-backend' >> $GITHUB_ENV
+          
     - name: Checkout
       uses: actions/checkout@v2
 
