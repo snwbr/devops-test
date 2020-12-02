@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS "courses" (
 
 -- Copy the data
 COPY "courses"("title", "description")
-    FROM 'courses.csv'
+    FROM '/tmp/courses.csv'
     DELIMITER ',' CSV HEADER;

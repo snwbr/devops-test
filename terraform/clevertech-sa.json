@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "clevertech-297410",
+  "private_key_id": "88e3852c03c1924a9b2f9dd2c4db2bb50a9a67cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8qZduq+RBs0yo\nzLmEB4xc6xSB1u4Q03hsp1Yd48OBMYbQKWthNuS2/hLFoSdh0amO5cBzyTDlM9T3\njiL93eEHT3c2V6lX/l+6+Irct2Tiwu9fUZLuQBIaVUZ0WADpAjYgK1PlU1iJgc03\n3YmxtlFNrJSdmesijsD9ZYEhYCuMJf2OMqCbAiHU5+nhuIJI4AcZImXW4ia+YB5S\n6CQxJjpm218MHrEFVJIezjGjB6Pe8FLnIU3eNV4LESWzY566IK5BMbwVxAP33VAL\niqyM+y9aqKpV3u/ExplMnTVGIuK1xc4gmK4p69kOA1F1OcS8o7Sh00+OOqbgxJ3F\nH4UN5PoVAgMBAAECggEAC3l9HlwSC/Ttyq548hDLdrNNkgAShq91+ZXL5RF/SJJM\nksiSIV2HV6HoXmDI1mg8Gdbbd69a6/XVFCFu+2XNU/Z/V6zJPfLYu7R2Lapx1mDo\n0jFR8G+xKizZliXsGD/sLtSzy5TgI6zjYGx2/XoLQ+AlQdiktntcPY0452DEBUgH\ndjxfH6YRtaeC6apbdwWbmbm+qEuMYnZ6unQyezpQtsTSjF18v+PqrY8Zcu+6eGt6\ngu2Q3eZk6uJ5GAo7Sn9KJeNHc9H4E+pqVPsmuudi7nwVh3IzES29Rgg+uX/zVvhB\nUe676T1OEAxsz2NZyoNojgrcaOYyy5fHVnt/uaxLGQKBgQDpKkIT49RICDDJpTG7\nfocQi35Ag6dwJ8ajmGMl46F9Am4sMsXuESqWTFoNCFZEU0kTZ1ZERBW9Qopm05dj\n5DzrXTWSZ1B+lHEr/42KcK4rdcYTSIjlxgLyt3y44VCOOBL3sxh7nerODI4s6ZLR\naSo/4svHtIrYTUumxZwE5wa1KwKBgQDPI5jcGJiBUM/Ad0ZZxs97abelQiHg+dXn\nFIDSqrjEAIXGvyQGjucnRY8NeyWofs/HPokn81CkruAl25otbhCtXSZWLs89l6tz\nVseWnFuKY5mAWMDgSfvh8N7tkwUkZEqlefT32N4FZTtJCYW8Gfr+OPcwQ1yXWyy8\nBeHlzwHtvwKBgFAeBBx/gXbK0bDIAYGyZUiLFfOnCUahdEDMYO0o/VlOF3s6awZ1\ngZOpYpvtzG6ny4lOTbchSfMBRTs142Qgjco1+e13cJI+AXEj24fBVid6zXfcyaVi\nV6r8329LhHmJzQKt2HDJf2ATslq+W4N3RlwzWuAhKkBOtvr0FbsdgxGHAoGAbh0X\nSpGMqNnjxwXhESKd85ZMeP6B8g3+BvygSt1UoWVBuFit9wqKmRbiKCF58GuRWvLE\niMdQ7GrGX3mxKUtkdDSbh58UrkJtc0ADk+4Ev7mYxWDpD5Jk40Rfzd2lEyZ5hCQj\n9ImF5UpeTMJSJJ+PDQwNY8u7cf6W9lEOOFNmTBMCgYEAjb6UOx8AaR9HxoBHNSaR\n0xdOkBIs4P7ceIOMY/RNAklqDFC5wEZBeHUYGvpi/LpXsfU35H2apJ0rp+jv0WHU\nX7UCab4RFd4fsxXBux5W3VynKCWO39x9iyHX/TgB7jwrmPEUjzKbM2ewU3Is9t0W\nmOqCT/ziK+gWDP+Cdciq0O8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "clevertech@clevertech-297410.iam.gserviceaccount.com",
+  "client_id": "108545931628482936943",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/clevertech%40clevertech-297410.iam.gserviceaccount.com"
+}

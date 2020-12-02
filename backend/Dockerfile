@@ -1,0 +1,24 @@
+FROM node:12
+
+ARG DB_HOST=localhost
+ARG DB_USERNAME=postgres
+ARG DB_PASSWORD=postgres
+ARG DB_DATABASE=courses
+ARG PORT=8080
+ENV DB_HOST=$DB_HOST
+ENV DB_USERNAME=$DB_USERNAME
+ENV DB_PASSWORD=$DB_PASSWORD
+ENV DB_DATABASE=$DB_DATABASE
+ENV PORT=$PORT
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
+RUN yarn install
+
+COPY . .
+
+EXPOSE $PORT
+
+CMD [ "node", "server.js" ]

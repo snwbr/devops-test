@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: clevertech-vars
+  namespace: default
+data:
+  BACKEND_URL: http://localhost:8001/api
+  FE_PORT: "80"
+  DB_HOST: postgresql
+  DB_USERNAME: postgres
+  DB_PASSWORD: postgres
+  DB_DATABASE: courses
+  BE_PORT: "8001"
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_DB: courses

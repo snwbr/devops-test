@@ -1,0 +1,54 @@
+version: "3.8"
+services:
+  frontend:
+    image: 'ct-frontend:v1'
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 1GB
+    ports:
+      - 80:80
+    env_file:
+      - frontend/variables.env
+    networks:
+      frontend:
+        aliases:
+          - frontend
+  backend:
+    image: 'ct-backend:v1'
+    restart: always
+    depends_on:
+      - db
+    deploy:
+      resources:
+        limits:
+          memory: 1GB
+    ports:
+      - 8001:8001
+    env_file:
+      - backend/variables.env
+    networks:
+      backend:
+        aliases:
+          - backend
+  db:
+    image: postgres
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 2GB
+    volumes:
+      - "./db/courses.csv:/tmp/courses.csv"
+      - "./db/initdb.sql:/docker-entrypoint-initdb.d/initdb.sql"
+    env_file:
+      - db/variables.env
+    networks:
+      backend:
+        aliases:
+          - postgresql
+
+networks:
+  backend:
+  frontend:
