@@ -15,3 +15,9 @@ Due to the time constrain of 7-8 hours, I got a basic set up running plus some s
 - Spin up the whole cluster in an automated fashion using ansible.
 - Adding Atlantis for TF scripts via Github PRs.
 - Creation of granular RBAC rules through all the tools and processes.
+
+## Hosted application
+
+Application can be reached here: http://35.227.93.158:60000/
+
+Every time there is a push to https://github.com/snwbr/devops-test, the pipeline will build a new docker image, push it to Google Content Repository and deploy it to GKE.
