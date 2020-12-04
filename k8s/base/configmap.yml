@@ -5,7 +5,7 @@ metadata:
   name: clevertech-vars
   namespace: default
 data:
-  BACKEND_URL: http://35.227.93.158:60001/api
+  BACKEND_URL: http://34.75.25.17:60001/api
   FE_PORT: "80"
   DB_HOST: postgresql
   DB_USERNAME: postgres
