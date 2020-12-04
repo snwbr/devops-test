@@ -4,9 +4,9 @@ kind: Service
 metadata:
   name: ct-backend
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
-    - port: 8001
+    - port: 60001
       targetPort: 8001
   selector:
     app: ct-backend
