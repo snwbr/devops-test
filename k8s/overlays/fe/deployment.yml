@@ -36,6 +36,11 @@ spec:
             configMapKeyRef:
               key: BACKEND_URL
               name: clevertech-vars
+        - name: REACT_APP_BACKEND_URL
+          valueFrom:
+            configMapKeyRef:
+              key: REACT_APP_BACKEND_URL
+              name: clevertech-vars
         - name: PORT
           valueFrom:
             configMapKeyRef:

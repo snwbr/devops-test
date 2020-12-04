@@ -6,6 +6,7 @@ metadata:
   namespace: default
 data:
   BACKEND_URL: http://34.75.25.17:60001/api
+  REACT_APP_BACKEND_URL: http://34.75.25.17:60001/api
   FE_PORT: "80"
   DB_HOST: postgresql
   DB_USERNAME: postgres
